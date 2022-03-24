@@ -2,6 +2,14 @@
 
 int main(void)
 {
+	char c;
+	char tmpBuffer;
+	//scanf_s("%c\n", &cm & tmpBuffer)
+	
+	scanf("%c\n", &c);
+	getchar();
+	printf("%c\n", c);
+
 	// scanf
 	// scanf(서식문자열, 변수값 참조)
 	// 입력이 들어올때 까지 대기하다가 들어오면 변수값 참조한 변수에 해당 입력값을 대입함.
