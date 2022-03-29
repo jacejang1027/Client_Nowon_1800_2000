@@ -1,0 +1,5 @@
+﻿  main.c
+C:\Users\User\Documents\GitHub\Client_Nowon_1800_2000\Client_C\PointerAndArray\main.c(12,10): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'int *'입니다.
+C:\Users\User\Documents\GitHub\Client_Nowon_1800_2000\Client_C\PointerAndArray\main.c(23,25): warning C4047: '함수': 'int **'의 간접 참조 수준이 'int [5]'과(와) 다릅니다.
+C:\Users\User\Documents\GitHub\Client_Nowon_1800_2000\Client_C\PointerAndArray\main.c(23,22): warning C4024: 'printf_all_elements': 형식 및 실제 매개 변수 1의 형식이 서로 다릅니다.
+  PointerAndArray.vcxproj -> C:\Users\User\Documents\GitHub\Client_Nowon_1800_2000\Client_C\Debug\PointerAndArray.exe
