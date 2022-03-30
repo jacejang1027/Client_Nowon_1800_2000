@@ -31,8 +31,110 @@ int main(void) {
 
 	sum(2, 3);
 	sum(4, 3); // 한번 정의 된 함수는 여러번 호출 가능.(함수호출시 정의된 함수를 복사해서 사용함) 
+
+
+	double* pd1, * pd2, d1, d2;
+	d1 = 2.0;
+	d2 = 4.0;
+	pd1 = &d1;
+	pd2 = &d2;
+
+
+	// 대입연산자 쓰지말고 *pd1. *pd2, d1, d2 의 조합으로 6을 출력할 수 있는
+	// 4가지 경우를 써보세요 ( 각 변수는 연산에 한번씩만 사용 가능 )
+
+	printf("%lf\n", d1 + d2);
+	printf("%lf\n", *pd1 + *pd2);
+	printf("%lf\n", d1 + *pd2);
+	printf("%lf\n", *pd1 + d2);
+
+	
+	
+
+	// 상수형 포인터
+	// 형태 : const 자료형 *
+	// 포인터를 바꿀 수 없다는게 아니라 포인터가 가리키는 해당 주소의 값을 바꿀 수 없도록함.
+	// 즉, 간접참조연산을 L-value 로 사용할 수 없다.
+	int n1 = 0, n2 = 0;
+	const int* pa = &n1;
+	pa = &n2;
+	//*pa = 20; // 불가능.
+	n1 = *pa; // 가능
+	// const (상수형) 의 사용목적 : 변하지 않으면서 특정 값을 보기편하게 나타낼때 사용
+
+	const int n3 = 0; // n3 은 const 이지만
+	int* pn3 = &n3;
+	*pn3 = 3; // 간접참조를 통해 n3 의 번지수에 접근하면 
+			  // n3 식별자를 거치지 않으므로 해당 주소의 값을 수정할 수가 있다.
+	printf("%d\n", n3);
+
+	// 다른 자료형 포인터간의 대입
+	// L-value 대입한 포인터의 자료형이 더 크다면 할당ㅂ다지 못한 공간에 접근하는 위험한 상황이
+	// 발생할 수 있으므로 주의해야함. 컴파일 에러는 아님.
+
+
+	int* _n = 3;
+	double _d = 3.5;
+	int* _p = &_n;
+	double* _pd = &_d; 
+
+
+	/*printf("p : %p\n", _p);
+	printf("pd : %p\n", _pd);
+	p = pd;
+	printf("p : %p\n", _p);
+	printf("pd : %p\n", _pd);
+	*p = 3;
+	printf("size of *p %d\n", sizeof(*_p));
+	printf("%d\n", *_p);
+	pd = p;
+	*pd = 3.5;
+	printf("size of *pd %d\n", sizeof(*_pd));
+	printf("%d\n", *_pd); */
+
+	printf("p : %p\n", _p);
+	printf("pd : %p\n", _pd);
+	p = pd;
+	printf("p : %p\n", _p);
+	printf("pd : %p\n", _pd);
+	*p = 3;
+	printf("size of *p %d\n", sizeof(*_p));
+	printf("%d\n", *_p);
+	pd = p;
+	*pd = 3.5;
+	printf("size of *pd %d\n", sizeof(*_pd));
+	
+	int* pc = NULL;
+	if (pc != NULL)
+		printf("%p", pc);
+
+	
+	// 포인터를 사용하는 이유
+	// swap 에서
+	int a = 1, b = 2;
+	// 함수호출
+	printf("a = %d, b = %d\n", a, b): // 예상결과 a = 2, b = 1;
+
+
+
+
 	return 0;
 }
+
+void swap(int a, int b) {
+	int t = a;
+	a = b;
+	b = t;
+	 
+	
+}
+
+
+
+
+
+
+
 
 int doSomething() {
 	
@@ -73,4 +175,6 @@ int sub(int a, int b) {
 	int tmpValue = a - b;
 	printf("%d\n", tmpValue); // 함수 내에서도 함수 호출 가능
 	return tmpValue;
+
 }
+

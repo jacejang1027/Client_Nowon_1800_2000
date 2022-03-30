@@ -50,7 +50,17 @@
       "ProjectGuid": "225c0a85-7e85-4ca5-8385-3b88c64de17b",
       "DisplayName": "Function",
       "ColorIndex": 9
+    },
+    "031d0e26-4034-43a9-afd4-590a8af3ced7": {
+      "ProjectGuid": "031d0e26-4034-43a9-afd4-590a8af3ced7",
+      "DisplayName": "PointerAndArray",
+      "ColorIndex": 10
+    },
+    "ed961b69-3f9b-498f-83d4-54d118451be8": {
+      "ProjectGuid": "ed961b69-3f9b-498f-83d4-54d118451be8",
+      "DisplayName": "DoublePointer",
+      "ColorIndex": 11
     }
   },
-  "NextColorIndex": 10
+  "NextColorIndex": 12
 }
