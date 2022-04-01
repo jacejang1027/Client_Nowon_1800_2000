@@ -75,7 +75,12 @@
       "ProjectGuid": "43f7f3ab-a829-495b-88e9-0429bdafc607",
       "DisplayName": "Structure",
       "ColorIndex": 14
+    },
+    "230c579d-5c1e-4961-8893-06e31ef7d676": {
+      "ProjectGuid": "230c579d-5c1e-4961-8893-06e31ef7d676",
+      "DisplayName": "Union",
+      "ColorIndex": 15
     }
   },
-  "NextColorIndex": 15
+  "NextColorIndex": 0
 }
