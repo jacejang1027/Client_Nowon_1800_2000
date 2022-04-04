@@ -8,7 +8,7 @@ enum JumpState {
 	PrepareToJump,
 	InFight,
 	Falling,
-	OnGroound
+	OnGroound,
 };
 
 // enum : 열거형, 사용자정의 자료형을 정의하기위한 키워드
