@@ -1,0 +1,7 @@
+﻿  main.c
+C:\Users\User\Documents\GitHub\Client_Nowon_1800_2000\Client_C\FileinOut\main.c(32,7): warning C4013: 'exit'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+C:\Users\User\Documents\GitHub\Client_Nowon_1800_2000\Client_C\FileinOut\main.c(103,14): warning C4013: 'fpopen'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+C:\Users\User\Documents\GitHub\Client_Nowon_1800_2000\Client_C\FileinOut\main.c(103,36): warning C4047: '=': 'FILE *'의 간접 참조 수준이 'int'과(와) 다릅니다.
+C:\Users\User\Documents\GitHub\Client_Nowon_1800_2000\Client_C\FileinOut\main.c(93,9): warning C4101: 'average' :참조되지 않은 지역 변수입니다.
+main.obj : error LNK2019: _fpopen_main 함수에서 참조되는 확인할 수 없는 외부 기호
+C:\Users\User\Documents\GitHub\Client_Nowon_1800_2000\Client_C\Debug\FileinOut.exe : fatal error LNK1120: 1개의 확인할 수 없는 외부 참조입니다.
