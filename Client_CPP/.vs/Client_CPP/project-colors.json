@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "179a9de1-aeb4-4e5a-8399-03505f41a2f6": {
+      "ProjectGuid": "179a9de1-aeb4-4e5a-8399-03505f41a2f6",
+      "DisplayName": "FirstProject",
+      "ColorIndex": 0
+    },
+    "ebbbb914-f8ea-4ea5-9d0f-4d738d391b3d": {
+      "ProjectGuid": "ebbbb914-f8ea-4ea5-9d0f-4d738d391b3d",
+      "DisplayName": "DynamicAllocation",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}

@@ -14,13 +14,12 @@
 // using namespace 네임스페이스이름 형태로 써주면 된다.
 using namespace std;
 
-
 int main() {
 
 	//printf("%s", "Hello World!");
 	std::cout << "Hello World!" << endl;
 	
-	// audo 키워드
+	// auto 키워드
 	// C에서는 지역변수 선언할때 사용하나 생략 가능하므로 쓸모가없음
 	// C++ 에서는 해당 키워드 재정의함
 	// auto 를 자료형처럼 사용하면서 변수 선언과 동시에 초기화하면
