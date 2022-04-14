@@ -10,7 +10,17 @@
       "ProjectGuid": "ebbbb914-f8ea-4ea5-9d0f-4d738d391b3d",
       "DisplayName": "DynamicAllocation",
       "ColorIndex": 1
+    },
+    "06899a2e-8996-4ae7-9327-64dee5a62b85": {
+      "ProjectGuid": "06899a2e-8996-4ae7-9327-64dee5a62b85",
+      "DisplayName": "String",
+      "ColorIndex": 2
+    },
+    "a9eb1e1d-b3b8-4638-9710-040b30ff82ef": {
+      "ProjectGuid": "a9eb1e1d-b3b8-4638-9710-040b30ff82ef",
+      "DisplayName": "Functions",
+      "ColorIndex": 3
     }
   },
-  "NextColorIndex": 2
+  "NextColorIndex": 4
 }
