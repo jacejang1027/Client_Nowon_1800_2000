@@ -1,2 +1,60 @@
-﻿  main.cpp
-  Class.vcxproj -> C:\Users\User\Documents\GitHub\Client_Nowon_1800_2000\Client_CPP\Debug\Class.exe
+﻿  Debuffer.cpp
+C:\Users\User\Documents\GitHub\Client_Nowon_1800_2000\Client_CPP\Class\Warrior.h(21,4): error C3646: '_hp': 알 수 없는 재정의 지정자입니다.
+C:\Users\User\Documents\GitHub\Client_Nowon_1800_2000\Client_CPP\Class\Warrior.h(20,9): error C2253: 'Warrior': 순수 지정자 또는 추상 재정의 지정자는 가상 함수에만 사용할 수 있습니다.
+C:\Users\User\Documents\GitHub\Client_Nowon_1800_2000\Client_CPP\Class\Warrior.h(22,2): error C2059: 구문 오류: '{'
+C:\Users\User\Documents\GitHub\Client_Nowon_1800_2000\Client_CPP\Class\Warrior.h(22,2): error C2334: '{' 앞에 예기치 않은 토큰이 있습니다. 명백한 함수 본문을 건너뜁니다.
+C:\Users\User\Documents\GitHub\Client_Nowon_1800_2000\Client_CPP\Class\Debuffer.h(22,1): error C2440: '=': 'char *'에서 'char'(으)로 변환할 수 없습니다.
+C:\Users\User\Documents\GitHub\Client_Nowon_1800_2000\Client_CPP\Class\Debuffer.h(22,11): message : 이 변환이 가능한 컨텍스트가 없습니다.
+C:\Users\User\Documents\GitHub\Client_Nowon_1800_2000\Client_CPP\Class\Debuffer.h(27,1): error C2664: 'size_t strlen(const char *)': 인수 1을(를) 'const char'에서 'const char *'(으)로 변환할 수 없습니다.
+C:\Users\User\Documents\GitHub\Client_Nowon_1800_2000\Client_CPP\Class\Debuffer.h(27,33): message : 정수 계열 형식에서 포인터 형식으로 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\string.h(215,16): message : 'strlen' 선언을 참조하십시오.
+C:\Users\User\Documents\GitHub\Client_Nowon_1800_2000\Client_CPP\Class\Debuffer.h(27,1): error C3078: 배열 크기는 새 식에서 이니셜라이저 없이 지정되어야 합니다.
+C:\Users\User\Documents\GitHub\Client_Nowon_1800_2000\Client_CPP\Class\Debuffer.h(28,1): error C2664: 'char *strcpy(char *,const char *)': 인수 1을(를) 'char'에서 'char *'(으)로 변환할 수 없습니다.
+C:\Users\User\Documents\GitHub\Client_Nowon_1800_2000\Client_CPP\Class\Debuffer.h(28,10): message : 정수 계열 형식에서 포인터 형식으로 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\string.h(130,1): message : 'strcpy' 선언을 참조하십시오.
+C:\Users\User\Documents\GitHub\Client_Nowon_1800_2000\Client_CPP\Class\Debuffer.h(32,1): error C2541: 'delete': 포인터가 아닌 개체를 삭제할 수 없습니다.
+C:\Users\User\Documents\GitHub\Client_Nowon_1800_2000\Client_CPP\Class\Debuffer.cpp(7,21): error C2064: 항은 0개의 인수를 받아들이는 함수로 계산되지 않습니다.
+  main.cpp
+C:\Users\User\Documents\GitHub\Client_Nowon_1800_2000\Client_CPP\Class\Debuffer.h(11,18): error C2061: 구문 오류: 식별자 'Warrior'
+C:\Users\User\Documents\GitHub\Client_Nowon_1800_2000\Client_CPP\Class\Debuffer.h(12,19): error C2535: 'void Debuffer::DecreaseHP(void)': 멤버 함수를 이미 정의했거나 선언했습니다.
+C:\Users\User\Documents\GitHub\Client_Nowon_1800_2000\Client_CPP\Class\Debuffer.h(11): message : 'Debuffer::DecreaseHP' 선언을 참조하십시오.
+C:\Users\User\Documents\GitHub\Client_Nowon_1800_2000\Client_CPP\Class\Debuffer.h(22,1): error C2440: '=': 'char *'에서 'char'(으)로 변환할 수 없습니다.
+C:\Users\User\Documents\GitHub\Client_Nowon_1800_2000\Client_CPP\Class\Debuffer.h(22,11): message : 이 변환이 가능한 컨텍스트가 없습니다.
+C:\Users\User\Documents\GitHub\Client_Nowon_1800_2000\Client_CPP\Class\Debuffer.h(27,1): error C2664: 'size_t strlen(const char *)': 인수 1을(를) 'const char'에서 'const char *'(으)로 변환할 수 없습니다.
+C:\Users\User\Documents\GitHub\Client_Nowon_1800_2000\Client_CPP\Class\Debuffer.h(27,33): message : 정수 계열 형식에서 포인터 형식으로 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\string.h(215,16): message : 'strlen' 선언을 참조하십시오.
+C:\Users\User\Documents\GitHub\Client_Nowon_1800_2000\Client_CPP\Class\Debuffer.h(27,1): error C3078: 배열 크기는 새 식에서 이니셜라이저 없이 지정되어야 합니다.
+C:\Users\User\Documents\GitHub\Client_Nowon_1800_2000\Client_CPP\Class\Debuffer.h(28,1): error C2664: 'char *strcpy(char *,const char *)': 인수 1을(를) 'char'에서 'char *'(으)로 변환할 수 없습니다.
+C:\Users\User\Documents\GitHub\Client_Nowon_1800_2000\Client_CPP\Class\Debuffer.h(28,10): message : 정수 계열 형식에서 포인터 형식으로 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\string.h(130,1): message : 'strcpy' 선언을 참조하십시오.
+C:\Users\User\Documents\GitHub\Client_Nowon_1800_2000\Client_CPP\Class\Debuffer.h(32,1): error C2541: 'delete': 포인터가 아닌 개체를 삭제할 수 없습니다.
+C:\Users\User\Documents\GitHub\Client_Nowon_1800_2000\Client_CPP\Class\Warrior.h(21,4): error C3646: '_hp': 알 수 없는 재정의 지정자입니다.
+C:\Users\User\Documents\GitHub\Client_Nowon_1800_2000\Client_CPP\Class\Warrior.h(20,9): error C2253: 'Warrior': 순수 지정자 또는 추상 재정의 지정자는 가상 함수에만 사용할 수 있습니다.
+C:\Users\User\Documents\GitHub\Client_Nowon_1800_2000\Client_CPP\Class\Warrior.h(22,2): error C2059: 구문 오류: '{'
+C:\Users\User\Documents\GitHub\Client_Nowon_1800_2000\Client_CPP\Class\Warrior.h(22,2): error C2334: '{' 앞에 예기치 않은 토큰이 있습니다. 명백한 함수 본문을 건너뜁니다.
+C:\Users\User\Documents\GitHub\Client_Nowon_1800_2000\Client_CPP\Class\main.cpp(116,43): error C2664: 'char *strcpy(char *,const char *)': 인수 1을(를) 'char'에서 'char *'(으)로 변환할 수 없습니다.
+C:\Users\User\Documents\GitHub\Client_Nowon_1800_2000\Client_CPP\Class\main.cpp(116,18): message : 정수 계열 형식에서 포인터 형식으로 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\string.h(130,1): message : 'strcpy' 선언을 참조하십시오.
+C:\Users\User\Documents\GitHub\Client_Nowon_1800_2000\Client_CPP\Class\main.cpp(121,43): error C2664: 'char *strcpy(char *,const char *)': 인수 1을(를) 'char'에서 'char *'(으)로 변환할 수 없습니다.
+C:\Users\User\Documents\GitHub\Client_Nowon_1800_2000\Client_CPP\Class\main.cpp(121,18): message : 정수 계열 형식에서 포인터 형식으로 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\string.h(130,1): message : 'strcpy' 선언을 참조하십시오.
+  Warrior.cpp
+C:\Users\User\Documents\GitHub\Client_Nowon_1800_2000\Client_CPP\Class\Debuffer.h(11,18): error C2061: 구문 오류: 식별자 'Warrior'
+C:\Users\User\Documents\GitHub\Client_Nowon_1800_2000\Client_CPP\Class\Debuffer.h(12,19): error C2535: 'void Debuffer::DecreaseHP(void)': 멤버 함수를 이미 정의했거나 선언했습니다.
+C:\Users\User\Documents\GitHub\Client_Nowon_1800_2000\Client_CPP\Class\Debuffer.h(11): message : 'Debuffer::DecreaseHP' 선언을 참조하십시오.
+C:\Users\User\Documents\GitHub\Client_Nowon_1800_2000\Client_CPP\Class\Debuffer.h(22,1): error C2440: '=': 'char *'에서 'char'(으)로 변환할 수 없습니다.
+C:\Users\User\Documents\GitHub\Client_Nowon_1800_2000\Client_CPP\Class\Debuffer.h(22,11): message : 이 변환이 가능한 컨텍스트가 없습니다.
+C:\Users\User\Documents\GitHub\Client_Nowon_1800_2000\Client_CPP\Class\Debuffer.h(27,1): error C2664: 'size_t strlen(const char *)': 인수 1을(를) 'const char'에서 'const char *'(으)로 변환할 수 없습니다.
+C:\Users\User\Documents\GitHub\Client_Nowon_1800_2000\Client_CPP\Class\Debuffer.h(27,33): message : 정수 계열 형식에서 포인터 형식으로 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\string.h(215,16): message : 'strlen' 선언을 참조하십시오.
+C:\Users\User\Documents\GitHub\Client_Nowon_1800_2000\Client_CPP\Class\Debuffer.h(27,1): error C3078: 배열 크기는 새 식에서 이니셜라이저 없이 지정되어야 합니다.
+C:\Users\User\Documents\GitHub\Client_Nowon_1800_2000\Client_CPP\Class\Debuffer.h(28,1): error C2664: 'char *strcpy(char *,const char *)': 인수 1을(를) 'char'에서 'char *'(으)로 변환할 수 없습니다.
+C:\Users\User\Documents\GitHub\Client_Nowon_1800_2000\Client_CPP\Class\Debuffer.h(28,10): message : 정수 계열 형식에서 포인터 형식으로 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\string.h(130,1): message : 'strcpy' 선언을 참조하십시오.
+C:\Users\User\Documents\GitHub\Client_Nowon_1800_2000\Client_CPP\Class\Debuffer.h(32,1): error C2541: 'delete': 포인터가 아닌 개체를 삭제할 수 없습니다.
+C:\Users\User\Documents\GitHub\Client_Nowon_1800_2000\Client_CPP\Class\Warrior.h(21,4): error C3646: '_hp': 알 수 없는 재정의 지정자입니다.
+C:\Users\User\Documents\GitHub\Client_Nowon_1800_2000\Client_CPP\Class\Warrior.h(20,9): error C2253: 'Warrior': 순수 지정자 또는 추상 재정의 지정자는 가상 함수에만 사용할 수 있습니다.
+C:\Users\User\Documents\GitHub\Client_Nowon_1800_2000\Client_CPP\Class\Warrior.h(22,2): error C2059: 구문 오류: '{'
+C:\Users\User\Documents\GitHub\Client_Nowon_1800_2000\Client_CPP\Class\Warrior.h(22,2): error C2334: '{' 앞에 예기치 않은 토큰이 있습니다. 명백한 함수 본문을 건너뜁니다.
+C:\Users\User\Documents\GitHub\Client_Nowon_1800_2000\Client_CPP\Class\Warrior.cpp(23,1): error C2063: 'Warrior::GetHP': 함수가 아닙니다.
+  코드를 생성하고 있습니다...
