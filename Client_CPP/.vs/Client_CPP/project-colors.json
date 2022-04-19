@@ -25,7 +25,17 @@
       "ProjectGuid": "6d9f83ce-05b9-406b-84f8-fde7b9f8bdfb",
       "DisplayName": "Class",
       "ColorIndex": 4
+    },
+    "86c1ed2e-2c07-49eb-b344-024632e21f15": {
+      "ProjectGuid": "86c1ed2e-2c07-49eb-b344-024632e21f15",
+      "DisplayName": "DynamicArray",
+      "ColorIndex": 5
+    },
+    "fbbb8173-5470-42e5-8660-3ebdbcac317e": {
+      "ProjectGuid": "fbbb8173-5470-42e5-8660-3ebdbcac317e",
+      "DisplayName": "test1",
+      "ColorIndex": 6
     }
   },
-  "NextColorIndex": 5
+  "NextColorIndex": 7
 }
