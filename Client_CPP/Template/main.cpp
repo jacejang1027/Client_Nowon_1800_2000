@@ -1,5 +1,5 @@
 #include <iostream>
-
+#include "MyTemplate.h"
 // 포인터를 쓰는경우 vs 참조자를 쓰는경우
 // 포인터 : 직접 해당 변수의 주소값이 필요한 경우
 // 참조자 : 해당 변수의 값만 필요한 경우
@@ -19,6 +19,13 @@ int main() {
 
 	Swap<int>(a, b);
 	Swap<double>(c, d);
+
+	// 함수 템플릿
+	ForceSum<int, double>(a, c);
+
+	//클래스 템플릿
+	MyTemplate<int, double> myTemplate;
+	myTemplate.ForceSum(a, c);
 
 	return 0;
 }
