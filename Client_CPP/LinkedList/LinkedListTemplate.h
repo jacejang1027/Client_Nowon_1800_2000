@@ -47,7 +47,7 @@ class LinkedList
 	Node<T>& Last();
 	bool Remove(T item);
 	bool RemoveLast(T item);
-	void Delete();
+	void Delete();0
 };
 
 /// <summary>

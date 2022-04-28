@@ -45,7 +45,17 @@
       "ProjectGuid": "aaac44cd-a5a0-40dd-883e-db6d033d6082",
       "DisplayName": "LinkedList",
       "ColorIndex": 8
+    },
+    "cb1c0a10-cfc7-4385-a5b8-635a31373f4c": {
+      "ProjectGuid": "cb1c0a10-cfc7-4385-a5b8-635a31373f4c",
+      "DisplayName": "HashTable",
+      "ColorIndex": 9
+    },
+    "3b68d7f8-2782-4187-a3cc-182f9b84dff1": {
+      "ProjectGuid": "3b68d7f8-2782-4187-a3cc-182f9b84dff1",
+      "DisplayName": "Binary Tree",
+      "ColorIndex": 10
     }
   },
-  "NextColorIndex": 9
+  "NextColorIndex": 11
 }
