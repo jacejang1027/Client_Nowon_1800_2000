@@ -141,10 +141,13 @@
   <ItemGroup>
     <ClInclude Include="Creature.h" />
     <ClInclude Include="Dog.h" />
+    <ClInclude Include="DynamicArrayTemplate.h" />
+    <ClInclude Include="Human.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Creature.cpp" />
     <ClCompile Include="Dog.cpp" />
+    <ClCompile Include="Human.cpp" />
     <ClCompile Include="Main.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

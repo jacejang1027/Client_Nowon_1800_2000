@@ -55,7 +55,12 @@
       "ProjectGuid": "3b68d7f8-2782-4187-a3cc-182f9b84dff1",
       "DisplayName": "Binary Tree",
       "ColorIndex": 10
+    },
+    "29b6d348-9687-43ce-bdd7-d589bece08bc": {
+      "ProjectGuid": "29b6d348-9687-43ce-bdd7-d589bece08bc",
+      "DisplayName": "ClassInheritance",
+      "ColorIndex": 11
     }
   },
-  "NextColorIndex": 11
+  "NextColorIndex": 12
 }
